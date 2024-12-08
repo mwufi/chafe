@@ -5,7 +5,7 @@ import Link from "next/link";
 import { ElevenLabsLogo } from "@/components/logos";
 
 export const metadata: Metadata = {
-    title: "ConvAI",
+    title: "Jess - Dating AI",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
@@ -20,7 +20,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
                     >
                         <div className={"flex"}>
                             <Link href={"/"} prefetch={true} className="text-2xl font-bold text-purple-500">
-                                <span>WM</span>
+                                <span>Chat Cafe</span>
                             </Link>
                         </div>
 
