@@ -40,7 +40,7 @@ export function ConvAI() {
                     <CardHeader>
                         <CardTitle className={'text-center'}>
                             {conversation.status === 'connected' ? (
-                                conversation.isSpeaking ? `Agent is speaking` : 'Agent is listening'
+                                conversation.isSpeaking ? `Jess is speaking` : 'Jess is listening'
                             ) : (
                                 'Disconnected'
                             )}
@@ -59,7 +59,7 @@ export function ConvAI() {
                             disabled={conversation.status === 'connected'}
                             onClick={startConversation}
                         >
-                            Start conversation
+                            Talk to Jess
                         </Button>
                         <Button
                             variant={'outline'}
@@ -68,7 +68,7 @@ export function ConvAI() {
                             disabled={conversation.status !== 'connected'}
                             onClick={stopConversation}
                         >
-                            Stop conversation
+                            Hang up
                         </Button>
                     </div>
                 </CardContent>

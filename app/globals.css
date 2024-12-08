@@ -92,7 +92,7 @@ body {
 }
 
 .orb-active {
-    background: radial-gradient(circle at center, #c7c7c7, #908e8e, #595959);
+    background: radial-gradient(circle at center, #efb4b4, #93ebeb, #3bf5a8);
 }
 
 .orb-inactive {
