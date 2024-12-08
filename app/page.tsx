@@ -1,5 +1,8 @@
 import { ConvAI } from "@/components/ConvAI";
 
+// for cloudflare pages
+export const runtime = "edge";
+
 export default function Home() {
     return (
         <div

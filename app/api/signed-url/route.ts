@@ -1,5 +1,8 @@
 import {NextResponse} from "next/server";
 
+// for cloudflare pages
+export const runtime = "edge";
+
 export async function GET() {
     const agentId = process.env.AGENT_ID
     const apiKey = process.env.XI_API_KEY
